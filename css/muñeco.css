@@ -1,0 +1,24 @@
+div.nino{
+    box-shadow: 0 0 15px #000;
+    width: 210px;
+    height: 300px;
+    padding: 300px;
+    background: url("nino-yoyo.png") no-repeat top left;
+}
+
+div.yoyo{
+    padding: 0;
+    background: url("yoyo.png") no-repeat bottom right;
+    width: 65px;
+    height: 75px;
+    position: relative;
+    right: 100%;
+    left: 145px;
+    top: 100px;
+
+    transition: height 1s linear 0.2s;
+}
+
+div.nino:hover div.yoyo{
+    height: 200px;
+}
